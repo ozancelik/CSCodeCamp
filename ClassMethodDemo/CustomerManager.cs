@@ -9,20 +9,20 @@ namespace ClassMethodDemo
 {
     internal class CustomerManager
     {
-        public static void AddCustomer(Customer customer)
+        public void AddCustomer(Customer customer)
         {
             Console.WriteLine("Müşteri Eklendi  " + customer.CustomerName + ' ' + customer.CustomerSurname);
             Console.WriteLine();
         }
 
-        public static void DeleteCustomer(Customer customer)
+        public void DeleteCustomer(Customer customer)
         {
             Console.WriteLine("Müşteri Silindi  " + customer.CustomerName + ' ' + customer.CustomerSurname);
             Console.WriteLine();
 
         }
 
-        public static void ListCustomers(Customer[] customers)
+        public void ListCustomers(Customer[] customers)
         {
             Console.WriteLine("*-*-*-*-*-*-*-Müşteri Listesi-*-*-*-*-*-*-*");
             Console.WriteLine();

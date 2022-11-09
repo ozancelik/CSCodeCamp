@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassMethodDemof
 {
-    internal class Customer
+    public class Customer
     {
         public int CustomerId { get; set; }
         public string CustomerEmail { get; set; }

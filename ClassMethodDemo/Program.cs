@@ -29,14 +29,14 @@ namespace ClassMethodDemo
            
             Customer[] customers = new Customer[] { customer1, customer2, customer3 };
 
+            CustomerManager customerManager = new CustomerManager();
 
+            customerManager.AddCustomer(customer1);
+            customerManager.AddCustomer(customer2);
 
-            CustomerManager.AddCustomer(customer1);
-            CustomerManager.AddCustomer(customer2);
+            customerManager.DeleteCustomer(customer1);
 
-            CustomerManager.DeleteCustomer(customer1);
-
-            CustomerManager.ListCustomers (customers);
+            customerManager.ListCustomers (customers);
 
 
         }
